@@ -6,6 +6,7 @@ function App() {
 
   // replace 'false' with a state variable that can be toggled between true and false
   // this will be used for the Dark Mode Toggle feature
+
   const appClass = false ? "App dark" : "App light"
 
   return (
@@ -15,7 +16,16 @@ function App() {
         <button>Dark Mode</button>
       </header>
       <ShoppingList items={itemData} />
+      <div className="App dark">
+{}
+</div>
+
+<div className="App light">
+{}
+</div>
     </div>
+
+
   );
 }
 

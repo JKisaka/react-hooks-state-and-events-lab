@@ -1,6 +1,7 @@
 import React from "react";
 import Item from "./Item";
 
+
 function ShoppingList({ items }) {
   return (
     <div className="ShoppingList">
@@ -11,6 +12,7 @@ function ShoppingList({ items }) {
           <option value="Dairy">Dairy</option>
           <option value="Dessert">Dessert</option>
         </select>
+        
       </div>
       <ul className="Items">
         {items.map((item) => (
